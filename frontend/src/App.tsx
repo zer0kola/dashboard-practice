@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button'
+import { ChartSection } from '@/components/chart-section'
 
 function App() {
   return (
-    <main>
-      <Button>Click me</Button>
+    <main className="flex min-h-screen flex-col items-center bg-background">
+      <ChartSection />
     </main>
   )
 }
